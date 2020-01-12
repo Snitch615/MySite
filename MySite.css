@@ -81,12 +81,18 @@ a {
 .p-title {
 	padding-top: 90px;
 	padding-bottom: 8px;
+	text-align: center;
 	font-size: 32px;
-	color: #000000;
-	border-bottom: 3px solid #ec715f;
-	width: 70px;
-	margin: 0 auto;
 	font-family: "Raleway", sans-serif;
+}
+
+.p-title::after {
+	content: "";
+	display: block;
+	width: 70px;
+	height: 3px;
+	margin: 8px auto 0 auto;
+	background-color: #ec715f
 }
 
 .p-text {
@@ -286,6 +292,12 @@ footer {
 
 	.container {
 		width: 90%;
+		margin: 0 auto;
+	}
+
+	.header-logo {
+		float: none;
+		height: 50px;
 	}
 
 	.hamburger-menu {
@@ -308,6 +320,20 @@ footer {
 
 	.list-bar:first-child {
 		margin-top: 10px;
+	}
+
+	.nav {
+		float: none;
+	}
+
+	.nav-item {
+		display: none;
+		float: none;
+		width: 100%;
+		line-height: 50px;
+		border-bottom: 1px solid gray;
+		text-align: center;
+		background-color: rgba(0,0,0,0.9);
 	}
 
 	.main-visual {
