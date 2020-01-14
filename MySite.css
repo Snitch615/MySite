@@ -297,6 +297,7 @@ footer {
 	.container {
 		width: 90%;
 		margin: 0 auto;
+		padding: 0 5%;
 	}
 
 	.header-logo {
@@ -355,6 +356,12 @@ footer {
 		font-size: 18px;
 	}
 
+	.container-portfolio {
+		width: 90%;
+		margin: 0 auto;
+		padding: 0 5%;
+	}
+
 	.portfolio {
 		padding: 0 5%;
 	}
@@ -390,7 +397,7 @@ footer {
 	}
 
 	.container-feature {
-		width: 980px;
+		width: 90%;
 		margin: 0 auto;
 	}
 
@@ -429,8 +436,10 @@ footer {
 		margin-top: 20px;
 	}
 
-	.contact {
+	.container-contact {
 		padding: 0 5%;
+		margin: 0 auto;
+		width: 90%;
 	}
 
 	.contact-group {
